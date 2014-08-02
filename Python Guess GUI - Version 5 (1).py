@@ -48,6 +48,8 @@ def Start():
     select = random.sample(people,1) #game randomly selects a person from database
     user = StringVar()
 
+    #list of functions for clues
+
     def hairClue():
         messagebox.showinfo("Hair Clue", "Person has {0} hair.".format(select[0].hair))
 
