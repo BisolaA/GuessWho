@@ -32,7 +32,7 @@ def Start():
     Niall = student("Niall","brown","brown","tall","male","doesn't wear")
     Niles = student("Niles","ginger","blue","medium","male","doesn't wear")
     
-    def passgame():
+    def passgame(): # function for setting guesses
         global guesses
         guesses-=1
         v.set(guesses)
