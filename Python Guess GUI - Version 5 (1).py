@@ -122,7 +122,7 @@ def Start():
     guessText = Label(root, textvariable=v, font=("Bold", 10), fg="Red")
     guessText.place(x=350, y=30)
 
-def quit():
+def quit(): #Quit function
     exit()
 
 def instruct():
